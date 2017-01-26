@@ -14,7 +14,7 @@ class TwoSum
     public static function calculate($nums, $target)
     {
         for ($i = 0; $i < count($nums); $i++) {
-            for($j = 0; $j < count($nums); $j++) {
+            for ($j = 0; $j < count($nums); $j++) {
                 if (($nums[$i] + $nums[$j]) == $target) {
                     return '[' . $i . ', ' . $j . ']';
                 }
