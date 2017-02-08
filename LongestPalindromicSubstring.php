@@ -6,6 +6,10 @@
  */
 class LongestPalindromicSubstring
 {
+    /** 
+     * @param string $string
+     * @return mixed
+     */
     public static function calculate($string = '')
     {
         $tempString = '';
