@@ -6,7 +6,7 @@
  */
 class LongestPalindromicSubstring
 {
-    /** 
+    /**
      * @param string $string
      * @return mixed
      */
